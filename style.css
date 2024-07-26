@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px;
+}
+.nav-section a{
+    text-decoration: none;
+    margin: 10px;
+    color: gray;
+}
+.nav-section a:hover{
+    text-decoration: underline;
+}
+.img-icon:hover{
+    opacity: 0.7;
+}
+.my-img{
+    border-radius: 50%;
+}
+
+/* header section design */
+header{
+    width: 60%;
+    padding: 50px;
+    margin: 0px auto;
+    /* border: 1px solid green; */
+    text-align: center;
+    padding-top: 20px;
+}
+form{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    position: relative;
+}
+form input{
+    display: block;
+    text-align: start;
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #ddd;
+    outline:none;
+    border-radius: 20px;
+    box-shadow: 4px 2px 5px gray;
+}
+.fa-solid{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+/* .google-logo{
+    text-align: center;
+} */
+.voice-mic{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.cemera{
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+/* main section  */
+.main-card{
+    width: 60%;
+    padding:0px  50px;
+    margin: 0px auto;
+    /* border: 1px solid green; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+    color: black;
+}
+.fa-brands{
+    color:red;
+    margin-bottom: 5px;
+}
